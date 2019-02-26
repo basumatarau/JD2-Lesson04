@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>jd2-maven-inheritance-subproject</artifactId>
+  <packaging>jar</packaging>
+
+  <name>jd2-maven-inheritance-base</name>
+  <url>http://maven.apache.org</url>
+
+<parent>
+	<groupId>by.htp.maven_inh</groupId>
+	<artifactId>jd2-maven-inheritance-parent</artifactId>
+	<version>0.0.1</version>
+</parent>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  
+</project>
