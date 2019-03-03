@@ -24,11 +24,16 @@
 
 	<developers>
 		<developer>
-			<name>Ivan Ivanov</name>
-			<email>ivan@gmail.com</email>
+			<name>Pavel Basumatarau</name>
+			<email>basumatarau@gmail.com</email>
 		</developer>
 	</developers>
 
+	<parent>
+		<groupId>by.htp.basumatarau</groupId>
+		<artifactId>lesson04</artifactId>
+		<version>0.0.1</version>
+	</parent>
 
 	<dependencies>
 		<dependency>

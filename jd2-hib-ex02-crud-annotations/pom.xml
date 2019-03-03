@@ -14,6 +14,13 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
+
+	<parent>
+		<groupId>by.htp.basumatarau</groupId>
+		<artifactId>lesson04</artifactId>
+		<version>0.0.1</version>
+	</parent>
+
   	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
 		<dependency>

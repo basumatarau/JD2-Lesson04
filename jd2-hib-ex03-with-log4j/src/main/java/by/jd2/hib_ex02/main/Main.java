@@ -23,7 +23,7 @@ public class Main {
 
 			session.beginTransaction();
 
-			User user = new User("Bob", "Dou", "dou1@mail.com.by", "passwordstub", "saltstub", new Timestamp(System.currentTimeMillis()));
+			User user = new User("Bobwe", "Dowue", "dweou1@mail.com.by", "passwordstub", "saltstub", new Timestamp(System.currentTimeMillis()));
 
 			session.save(user);
 			
